@@ -6,19 +6,18 @@ use yii\base\Widget;
 
 class MenuWidget extends Widget
 {
-	public $tpl;
+    public $tpl;
 
-	public function init(){
-		parent::init();
+    public function init(){
+        parent::init();
 
-		if ($this->tpl === null) {
-			$this->tpl = 'menu';
-		}
-		$this->tpl .= '.php';
-	}
+        if ($this->tpl === null) {
+            $this->tpl = 'menu';
+        }
+        $this->tpl .= '.php';
+    }
 
-	public function run(){
-
-		return $this->tpl;
-	}
+    public function run(){
+        return $this->tpl;
+    }
 }

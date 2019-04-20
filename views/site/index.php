@@ -1,5 +1,6 @@
 <?php
 
+use app\components\MenuWidget;
 /* @var $this yii\web\View */
 
 $this->title = 'GoodShop';
@@ -117,6 +118,7 @@ $this->title = 'GoodShop';
 			
 			<!-- Categories -->
 			<div class="box categories">
+                            <h3><?= MenuWidget::widget(['tpl' => 'select'])?></h3>
 				<h2>Categories <span></span></h2>
 				<div class="box-content">
 					<ul>
