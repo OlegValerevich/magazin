@@ -25,7 +25,10 @@ class AppAsset extends AssetBundle
     public $js = [
         "js/jquery-1.4.1.min.js",	
 	"js/jquery.jcarousel.pack.js",	
-	"js/jquery-func.js"
+	"js/jquery-func.js",
+	"js/accordion.js",
+	"js/jquery.cookie.js",
+	"js/main.js",
     ];
     public $depends = [
         'yii\web\YiiAsset',
