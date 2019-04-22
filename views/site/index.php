@@ -120,7 +120,7 @@ $this->title = 'GoodShop';
 			<div class="box categories">
 				<h2>Categories <span></span></h2>
 				<div class="box-content">
-                                    <ul class="catalog">
+                                    <ul class="catal">
 					<?= MenuWidget::widget(['tpl' => 'menu'])?>
                                     </ul>
 				</div>

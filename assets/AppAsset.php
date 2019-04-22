@@ -23,10 +23,13 @@ class AppAsset extends AssetBundle
         'css/style.css',
     ];
     public $js = [
-        "js/jquery-1.4.1.min.js",	
-	"js/jquery.jcarousel.pack.js",	
-	"js/jquery-func.js",
-	"js/accordion.js",
+//        "js/jquery.js",
+        "js/jquery-1.4.1.min.js",
+        "js/jquery-func.js",
+        "js/jquery.jcarousel.pack.js",
+//	"js/bootstrap.min.js",
+//	"js/jquery.js",
+	"js/jquery.accordion.js",
 	"js/jquery.cookie.js",
 	"js/main.js",
     ];
